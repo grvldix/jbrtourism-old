@@ -1,0 +1,105 @@
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaee;
+    color : #333333
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+
+}
+
+.head {
+    height: 30px;
+    background: #FFEE58;
+}
+
+.head ul li {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.header{    
+    background-color: #00B0FF;    
+    height: 50px;
+    text-align:left;    
+}
+
+.header1{        
+    /* display: inline-block; */
+    padding: 1px; 
+    background-color: #00B0FF;
+    text-align: left;
+}
+/* .header1 ul li {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: right;
+} */
+
+/* .header.judul{
+    font-size: 40px;
+    font-weight: bold;
+} */
+.header ul li {
+    display: inline-block;
+    /* text-align: right; */
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+
+}
+
+.header a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.hero {
+    margin-top: 20px;
+    height: 300px;
+    background-image: url(gambar/jfc_homepage.jpg);
+    background-size: cover;
+    background-position : 0 -5px;
+    border-top: 5px solid #bfc1fc;
+    border-bottom: 5px solid #ef516e;
+
+}
+
+.tulisan{
+    /* background-color: black;
+    margin-left: 30px;
+    margin-right: 710px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #ef516e;
+    text-align: left */
+}
+
+.tulisan1{
+    background-color: black;
+    margin-left: 30px;
+    margin-right: 710px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #02043f;
+    text-align: right
+}
+
+.footer{
+    margin-top: 50px;
+    text-align: center;
+    text-size-adjust: 12px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
